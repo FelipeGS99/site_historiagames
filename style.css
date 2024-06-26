@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte-titulo: "Oswald", sans-serif;
+    --fonte-padrao: "Arial", sans-serif;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.container{
+    width: 100%;
+    margin: 0, auto;
+}
+
+header h1{
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(2, 2, 48);
+    color: white;
+    font-family: var(--fonte-titulo);
+    border: 1px, solid, white
+
+}
+
+header nav{
+    background-color:rgb(2, 2, 48);
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    background-color: rgb(3, 3, 82);
+    padding: 16px;
+    margin-top: 10px;
+    display: inline-block;
+
+}
+
+header li {
+    display: inline;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+header a:hover{
+    color: rgb(6, 218, 255);
+    text-decoration: underline;
+}
+
+.firststeps {
+    display: flex;
+    justify-content: center;
+    font-family: var(--fonte-padrao);
+    margin-top: 16px;
+}
+
+.firststeps h2 {
+    font-family: var(--fonte-titulo);
+}
+
+section p,
+aside p {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+
+section {
+    background-color: aliceblue;
+    width: 40%;
+    text-align: justify;
+    margin-right: 2.5%;
+}
+
+aside {
+    width: 40%;
+    display: inline-block;
+    margin-left: 2.5%;
+    background-color: aliceblue;
+    text-align: justify;
+}
+
+section h2 {
+    padding: 16px;
+    text-align: center;
+}
+
+section img,
+aside img {
+    padding: 16px, 16px, 0, 16px;
+    width: 40%;
+    margin: auto;
+    display: flex;
+}
+
+section footer {
+    color: gray;
+    font-style: italic;
+    text-align: right;
+    
+}
+
+aside img {
+    width: 40%;
+    margin-top: 16px;
+}
+
+.imgfooter{
+    color: gray;
+    text-align: right;
+    font-style: italic;
+    margin-bottom: 16px;
+}
+
+main {
+    width: 85%;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 16px;
+    text-align: center;
+    font-family: var(--fonte-padrao);
+}
+
+main h2 {
+    padding: 16px;
+    text-align: center;
+    font-family: var(--fonte-titulo);
+}
+
+main p { 
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    text-align: justify;
+}
+
+main img {
+    width: 20%;
+    margin: auto;
+}
+
+.artigos {
+    width: 85%;
+    margin: auto;
+    margin-top: 16px;
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    display: flex;
+    justify-content: space-between;
+}
+
+.artigos p{
+    text-align: justify;
+}
+
+.artigos .anos70{
+    padding: 16px;
+    text-align: justify;
+}
+
+.anos70, .anos80, .anos90, .anos2000, .hoje{
+    width: 100%;
+    background-color: aliceblue;
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.artigos h2 {
+    text-align: center;
+    font-family: var(--fonte-titulo);
+}
+
+.anos70 p, .anos80 p, .anos90 p, .anos2000 p, .hoje p{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    margin-top: 16px;
+    text-align: justify;
+    font-family: var(--fonte-padrao);
+}
+
+.anos70 img, .anos2000 img {
+    width: 20%;
+    display: flex;
+    margin: auto;
+}
+
+.artigos .imgfooter {
+    color: gray;
+    text-align: right;
+    font-style: italic;
+    margin-bottom: 16px;
+}
+
+.imgrow{
+    display: flex;
+}
+
+.anos80 {
+    width: 50%;
+    margin: 0;
+    margin-right: 2.5%;
+}
+
+.artigos aside {
+    width: 50%;
+    display: inline-block;
+    margin-left: 2.5%;
+    background-color: aliceblue;
+    text-align: justify;
+}
+
+.anos80 h2, aside h2, .anos90 h2, .anos2000 h2, .hoje h2 {
+    padding: 16px;
+}
+
+aside ul {
+    font-family: var(--fonte-padrao);
+    font-size: large;
+    margin-left: 64px;
+    margin-top: 16px;
+}
+
+aside ul li {
+    margin-bottom: 8px;
+}
+
+.artigos aside img {
+    width: 40%;
+}
+
+.hoje img {
+    width: 15%;
+}
+
+.add {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 8%;
+}
+
+.add h2 {
+    margin-bottom: 16px;
+}
+
+form textarea{
+    resize: none;
+    width: 173px;
+    height: 120px;
+}
+
+form button {
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+form input {
+    margin-bottom: 4px;
+}
